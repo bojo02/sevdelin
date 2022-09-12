@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap');
+.title{
+    font-weight: 1000;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 2px 2px 8px black;
+    color:white;
+
+}
+button{
+    outline: none !important;
+  box-shadow: none !important;
+  border:none;padding: 0;
+  border: none;
+  background: none;
+  
+}
+.partner_title{
+    font-size:32px;
+}
+footer{
+    height: 20%;
+}
+@import "fonts";
+body h2, h3, h4, h5, h6, p, h1{
+    font-family: 'Montserrat', sans-serif;
+}
+#main_img{
+    text-align: center;
+    width: 500px;
+}
+#logo{
+    width: 600px;
+}
+.presentation-button{
+    width:200px;
+    margin: auto;
+}
+.hh{
+    font-family: 'Montserrat';
+    src: url("{{ public_path('css/Montserrat/Montserrat/Montserrat-Regular.otf') }}");
+}
+
+
+#main_image{
+    text-align: center;
+}
+.green{
+    color:#27ACB1;
+    font-weight: bold;
+}
+.playstore{
+    margin-top: 1px;
+    width: 225px;
+    justify-content: right;
+}
+.app-store{
+    text-align: left;
+}
+.play{
+    text-align: right;
+}
+.appstore{
+    width: 230px;
+   
+}
+#form_main{
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+border-radius: 20px;
+box-shadow: 1px 1px 8px;
+}
+.partner-videos{
+    width: 500px;
+}
+.presentation-video{
+    margin-top: 20px;
+    text-align: center;    
+}
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+.auto{
+    margin: auto;
+}
+#back-image{
+    width: 70px;
+}
+.back_button{
+    position: absolute;
+}
+.radios{
+text-align: left;
+}
+.block {
+    width:100%;
+margin-left: -20px;
+  }
+.unhappy-button {
+    width:100%;
+}
+  .btn-1{
+    text-align: center;
+    margin-left: 10px;
+
+  }
+  .bold{
+    font-weight: bold;
+  }
+.up{
+    margin-top: 20px;
+}
+#unhappy-title{
+    margin-top: 90px;
+    font-size: 45px;
+}
+.unhappy-section{
+    width: 350px;
+    margin: auto;
+}
+#unhappy-description{
+    font-size: 30px;
+    
+}
+#unhappy-image{
+    width: 500px;
+    
+}
+   
+.unhappy-div-image{
+    
+   text-align: center;
+}
+#video_present{
+   width: 600px;
+}
+
+.bottom{
+    margin-bottom: 20px;
+}
+.presentation-form{
+    width: 600px;
+    margin: auto;
+}
+img {
+    pointer-events: none;
+}
+  @media only screen and (min-width: 350px) and (max-width: 530px){
+    .partner_title{
+        font-size:22px;
+    }
+    .presentation-form{
+        width: 300px;
+        margin: auto;
+    }
+    #logo{
+        width: 300px;
+    }
+    .appstore-display{
+        display:none;
+    }
+    .googleplay-display{
+        display:none;
+    }
+    .app-store{
+        text-align: center;
+    }
+    .play{
+        text-align: center;
+    }
+    #unhappy-image{
+        width: 100%;
+        height:100%;
+    }
+    .unhappy-div-image{
+        margin-top:20px;
+        float:none;
+        justify-content: center;
+    }
+    .image-column{
+        text-align: center;
+    }
+    #main_img{
+        text-align: center;
+        width: 300px;
+  
+    }
+    .partner-videos{
+        width: 300px;
+    }
+    #video_present{
+        width: 300px;
+    }
+    .presentation-button{
+        width:200px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #form_main{
+        padding: 10px;
+        width: 350px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .btn-1{
+        text-align: center;
+        margin-left: 5px;
+    
+      }
+    .title{
+        font-weight: 600;
+        font-size: 29px;
+        text-align: center;
+        text-shadow: 2px 2px 8px black;
+        color:white;
+    
+    }
+    .playstore{
+        margin-top: 2px;
+        width: 295px;
+        float: none;
+    }
+    .appstore{
+        width: 300px;
+        float: none;
+    }
+    .presentation-form{
+        margin: auto;
+        width: 215px;
+    }
+  }
+ 
+
+  @media only screen and (min-width: 530px) and (max-width: 1000px){
+    #unhappy-image{
+        width: 100%;
+        height:100%;
+    }
+    .unhappy-div-image{
+        margin-top:100px;
+        float:none;
+        justify-content: center;
+    }
+    .app-store{
+        text-align: center;
+    }
+    .appstore-display{
+        display:none;
+    }
+    .googleplay-display{
+        display:none;
+    }
+    .play{
+        text-align: center;
+    }
+    .unhappy-div-image{
+        float:right;
+    }
+    .image-column{
+        text-align: center;
+    }
+    #main_img{
+        text-align: center;
+        width: 400px;
+  
+    }
+    .playstore{
+        margin-top: 2px;
+        width: 295px;
+        float: none;
+    }
+    .appstore{
+        width: 300px;
+        float: none;
+    }
+    #video_present{
+        width: 500px;
+    }
+    .presentation-button{
+        width:200px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .presentation-form{
+        margin: auto;
+        width: 215px;
+    }
+    .partner-videos{
+    width: 250px;
+    }
+    #form_main{
+        padding: 10px;
+        width: 400px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 20px;
+    
+    }
+    .title{
+        font-weight: 600;
+        font-size: 35px;
+        text-align: center;
+        text-shadow: 2px 2px 8px black;
+        color:white;
+    
+    }
+  
+  }
+  @media only screen and (min-width: 1000px) and (max-width: 1200px){
+    .partner-videos{
+        width: 400px;
+    }
+
+}
+@media only screen and (min-width: 530px) and (max-width: 580px){
+    #unhappy-image{
+        width: 70%;
+    }
+    .unhappy-div-image{
+        float:none;
+        justify-content: center;
+    }
+  }
